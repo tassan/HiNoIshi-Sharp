@@ -1,9 +1,13 @@
 ﻿using System;
+using HiNoIshi.Domain.Interfaces;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace HiNoIshi.Domain.Core
 {
-    public class Entity
+    public class Entity : IEntity
     {
-        public Guid Id { get; set; }
+        [BsonId] public Guid Id { get; set; }
+
+        public Entity() => Id = Guid.NewGuid();
     }
 }

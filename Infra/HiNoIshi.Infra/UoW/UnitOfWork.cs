@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using HiNoIshi.Infra.Interfaces;
+using HiNoIshi.Domain.Interfaces;
 
 namespace HiNoIshi.Infra.UoW
 {

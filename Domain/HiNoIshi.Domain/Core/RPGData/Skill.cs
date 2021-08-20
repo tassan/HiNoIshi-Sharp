@@ -5,7 +5,7 @@ using MongoDB.Bson;
 
 namespace HiNoIshi.Domain.Core.RPGData
 {
-    public class Skill : IEntity
+    public class Skill
     {
         public string Name { get; set; }
         public string Description { get; set; }
@@ -13,6 +13,5 @@ namespace HiNoIshi.Domain.Core.RPGData
         public int Value { get; set; }
         public SkillType Type { get; set; }
         public ElementalType ElementalType { get; set; }
-        public Guid Id { get; set; }
     }
 }

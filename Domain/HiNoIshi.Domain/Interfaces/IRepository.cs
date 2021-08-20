@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using HiNoIshi.Domain.Interfaces;
 
-namespace HiNoIshi.Infra.Interfaces
+namespace HiNoIshi.Domain.Interfaces
 {
     public interface IRepository<TEntity> where TEntity : IEntity, IDisposable
     {

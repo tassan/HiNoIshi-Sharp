@@ -7,10 +7,8 @@ using Attribute = HiNoIshi.Domain.Core.RPGData.Attribute;
 
 namespace HiNoIshi.Domain.Core.CharacterData
 {
-    public class Attributes : IEntity
+    public class Attributes
     {
-        public Guid Id { get; set; }
-        public Guid CharacterId { get; set; }
         public int ExperiencePoints { get; set; }
         public string Reputation { get; set; }
         public int Fame { get; set; }

@@ -6,10 +6,8 @@ using MongoDB.Bson;
 
 namespace HiNoIshi.Domain.Core.CharacterData
 {
-    public class Skills : IEntity
+    public class Skills
     {
-        public Guid Id { get; set; }
-        public Guid CharacterId { get; set; }
         public Clan Clan { get; set; }
         public Speciality Speciality { get; set; }
         public IEnumerable<Skill> Basics { get; set; }

@@ -4,9 +4,8 @@ using MongoDB.Bson;
 
 namespace HiNoIshi.Domain.Core
 {
-    public class AccessKey : IEntity
+    public class AccessKey
     {
-        public Guid Id { get; set; }
         public Guid CharacterId { get; set; }
         public string Alias { get; set; }
     }

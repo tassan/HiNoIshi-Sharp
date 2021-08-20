@@ -7,10 +7,8 @@ using MongoDB.Bson;
 
 namespace HiNoIshi.Domain.Core.CharacterData
 {
-    public class Profile : IEntity
+    public class Profile
     {
-        public Guid Id { get; set; }
-        public Guid CharacterId { get; set; }
         public string PlayerName { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
@@ -19,6 +17,5 @@ namespace HiNoIshi.Domain.Core.CharacterData
         public Division Division { get; set; }
         public Alignment Alignment { get; set; }
         public IEnumerable<Trivia> Trivias { get; set; }
-        
     }
 }

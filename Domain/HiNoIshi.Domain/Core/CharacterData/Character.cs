@@ -4,9 +4,8 @@ using MongoDB.Bson;
 
 namespace HiNoIshi.Domain.Core.CharacterData
 {
-    public class Character : IEntity, IDisposable
+    public class Character : Entity, IDisposable
     {
-        public Guid Id { get; set; }
         public Profile Profile { get; set; }
         public Attributes Attributes { get; set; }
         public Skills Skills { get; set; }

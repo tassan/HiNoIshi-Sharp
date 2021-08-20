@@ -1,10 +1,11 @@
 ﻿using System;
 using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
 namespace HiNoIshi.Domain.Interfaces
 {
     public interface IEntity
     {
-        public Guid Id { get; set; }
+        [BsonId] public Guid Id { get; set; }
     }
 }

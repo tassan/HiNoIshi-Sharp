@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using HiNoIshi.Domain.Interfaces;
-using HiNoIshi.Infra.Interfaces;
 using MongoDB.Driver;
 using ServiceStack;
 

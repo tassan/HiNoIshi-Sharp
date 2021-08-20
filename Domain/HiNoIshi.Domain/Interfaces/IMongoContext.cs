@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using MongoDB.Driver;
 
-namespace HiNoIshi.Infra.Interfaces
+namespace HiNoIshi.Domain.Interfaces
 {
     public interface IMongoContext : IDisposable
     {

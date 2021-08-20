@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace HiNoIshi.Infra.Interfaces
+namespace HiNoIshi.Domain.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {

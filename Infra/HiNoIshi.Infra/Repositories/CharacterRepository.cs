@@ -1,6 +1,6 @@
 ﻿using HiNoIshi.Domain.Core.CharacterData;
-using HiNoIshi.Infra.Interfaces;
-using HiNoIshi.Infra.Interfaces.Repositories;
+using HiNoIshi.Domain.Interfaces;
+using HiNoIshi.Domain.Interfaces.Repositories;
 
 namespace HiNoIshi.Infra.Repositories
 {
